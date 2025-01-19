@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">nivii</string>
+    <string name="title">Hello Doston !!</string>
+    <string name="login">Login</string>
+    <string name="login_here">Login Here</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_my_location">MyLocationActivity</string>
+    <string name="title_activity_my_loation">MyLoationActivity</string>
+</resources>

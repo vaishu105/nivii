@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menuBotNavHome"
+        android:title="Home"
+        android:icon="@drawable/homeicon"
+        />
+
+    <item
+        android:id="@+id/menuBotNavGadgets"
+        android:title="Gadgets"
+        android:icon="@drawable/icon_gadgets"
+        />
+
+    <item
+        android:id="@+id/menuBotNavFriends"
+        android:title="Friends"
+        android:icon="@drawable/ic_friend"
+        />
+
+    <item
+        android:id="@+id/menuBotNavEpisodes"
+        android:title="Episodes"
+        android:icon="@drawable/episodes"
+        />
+
+
+</menu>

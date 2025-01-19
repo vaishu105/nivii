@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity"
+    android:orientation="vertical"
+    >
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/abc"
+        app:lottie_speed="1" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/cvLogin"
+        app:cardCornerRadius="16sp"
+        app:cardBackgroundColor="@color/purple"
+        app:cardElevation="16sp"
+        android:layout_margin="30dp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:foregroundTintMode="multiply"
+            android:orientation="vertical"
+            android:layout_margin="40sp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10sp"
+                android:fontFamily="sans-serif-black"
+                android:gravity="center_horizontal"
+                android:text="@string/login_here"
+                android:textColor="@color/blue"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="50sp"
+                    android:id="@+id/etLoginUsername"
+                    android:background="@drawable/custom_edittext"
+                    android:hint="Username"
+                    android:textColorHint="@color/black"
+                    android:textStyle="bold"
+                    android:textSize="16sp"
+                    android:inputType="text"
+                    android:layout_margin="8sp"
+                    android:drawableLeft="@drawable/baseline_account_circle_24"
+                    android:padding="10dp"
+                    android:drawablePadding="10dp"
+                    />
+
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="50sp"
+                    android:id="@+id/etLoginPassword"
+                    android:background="@drawable/custom_edittext"
+                    android:hint="Password"
+                    android:textColorHint="@color/black"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:inputType="textPassword"
+                    android:layout_margin="8sp"
+                    android:drawableLeft="@drawable/baseline_density_small_24"
+                    android:drawablePadding="10dp"
+                    android:padding="10dp"
+                    />
+
+                <CheckBox
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/cbLoginShowHidePassword"
+                    android:text="Show Password"
+                    android:textColor="@color/abc"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="8sp"
+                    />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/btnLoginLogin"
+                    android:text="@string/login"
+                    android:textColor="@color/white"
+                    android:background="@color/blue"
+                    android:textStyle="bold"
+                    android:fontFamily="sans-serif-black"
+                    android:textSize="16sp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_margin="10dp"
+                    />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvSingUP"
+                android:fontFamily="sans-serif-black"
+                android:gravity="center_horizontal"
+                android:text="New User ? Click Here"
+                android:textColor="@color/blue"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:layout_marginTop="8sp"
+                />
+
+        </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
